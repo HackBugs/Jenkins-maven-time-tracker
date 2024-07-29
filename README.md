@@ -235,7 +235,16 @@ ________________________________________________________________________________
    - Go all node section and select the slave > configure > label > preference
    - Now if you want multiple project then go inside project > configure > Restrict where this project can be run
 ______________________________________________________________________________________________________________________
-### 
+
+### Install on linux Ubuntu
+```sh
+apt-get update
+sudo apt-cache search openjdk
+sudo apt-get install openjdk-21-jdk
+Java --version
+Follow the download documentation of jenkins based on operating system
+```
+    
 
 
 
