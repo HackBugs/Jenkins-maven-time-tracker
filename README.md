@@ -339,3 +339,18 @@ Maven allows you to customize the directory structure by configuring the `pom.xm
 This standard directory structure helps in streamlining the build process and makes it easier for developers to understand and collaborate on Maven projects.
 ______________________________________________________________________________________________________________________________________________________________________________
 
+### Maven Project with Apache Tomcat janken.war
+ - Downlaod
+      - Git
+      - Oracle jave JDK
+      - Jenkins.war - For running inside topcat server
+      - Apache Tomcat Server - Test tomcat is runing `localhost:8080`
+      - Create folder `C:\JENKINSHOME` - Set environment variables as like you set of Java
+      - Restart you PC
+      - Paste the Jenkins.war file on this location - C:\Program Files\Apache Software Foundation\Tomcat\[version]\webapps
+      - Open open jenkins - `localhost:8080/jenkins`
+      - Install jenkins plugin - `gibhubpull`, `Build check code is running or have error`, `install Junit plugin`
+      - Deploy - install jinkins plugin - `deploytocontainer`
+      - clone the github project
+      - 
+
