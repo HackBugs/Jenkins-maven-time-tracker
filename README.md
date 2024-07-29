@@ -227,3 +227,16 @@ ________________________________________________________________________________
 ### Post-build Actions
   - Build Other Project
 ______________________________________________________________________________________________
+
+### Master Slave Concept - Job Distribution concept
+   - Dashboard > Manage Jenkins > Nodes > New node
+   - Remote root directory > c:\slave1
+   - Launch method > section option > download jarfile and set the path of jar agent/slave1 path
+   - Go all node section and select the slave > configure > label > preference
+   - Now if you want multiple project then go inside project > configure > Restrict where this project can be run
+______________________________________________________________________________________________________________________
+### 
+
+
+
+
