@@ -205,7 +205,8 @@ ________________________________________________________________________________
       - user2
       - user3
   - Manage and Assign Roles
-      - Install plugin - Role-based Authorization Strategy
+      - Install plugin > Role-based Authorization Strategy
+      - First check if your role mangement is working than not need to install this plusgin if not working than - Install plugin Authorize ProjectVersion
     
     - Security > Authorization > Role-Based Strategy
     
@@ -225,3 +226,4 @@ ________________________________________________________________________________
 
 ### Post-build Actions
   - Build Other Project
+______________________________________________________________________________________________
