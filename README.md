@@ -263,8 +263,12 @@ ________________________________________________________________________________
    - in one Pom.xml contain on project infomation not multipule
      
 ### Architecture of Maven
-   - M2 Local Repo > Pom.xml - we mention all Dependencies and Compiler and other information | Goal - all cmd of maven we called gols > Source code > Remotec Centeral Repo where maven Dependencies or other requrement have stored > Github where we save our code
+   - M2 Local Repo - first maven try to donload Dependencies from local repo if local repo have not Dependencies than it's reach to Centeral repo > Pom.xml - we mention all Dependencies and Compiler and other information | Goal - all cmd of maven we called gols > Source code > Remotec Centeral Repo where maven Dependencies or other requrement have stored > Github where we save our code
+   - From MVN community you can download Dependencies also if you need of any other Dependencies
+________________________________________________________________________________________________________________________
 
+### Ant and Maven
+   - 
 
 
 
