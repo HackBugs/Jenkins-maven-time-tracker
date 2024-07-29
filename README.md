@@ -351,6 +351,6 @@ ________________________________________________________________________________
       - Open open jenkins - `localhost:8080/jenkins`
       - Install jenkins plugin - `gibhubpull`, `Build check code is running or have error`, `install Junit plugin`
       - Deploy - install jinkins plugin - `deploytocontainer`
-      - clone the github project
-      - 
+      - clone the github project - in jenkins
+   
 
