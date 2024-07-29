@@ -268,7 +268,74 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________
 
 ### Ant and Maven
-   - 
+### Ant 
+   - Toolbox
+   - Does Haven't formal conversation - not set define things
+   - Ant is procedural
+   - Not have lifecycle
+### Maven
+   - Framework
+   - You can configuartion can desigin you folder and other things
+   - Project Management tool
+   - Have formal conversation - Have rule to create folder structure and your write code there only
+      - where you download source code
+      - Compiled code 
+      - Define in Pom.xml
+   - Maven is declarative - maven know becouse what have work bec everything is we define Pom.xml file
+   - Follow lifecycle
 
+### Maven Folder Structure
+Maven follows a standard directory structure for its projects. This structure helps in organizing the project files in a consistent manner, making it easier for developers to understand and manage the project. Below is the typical structure of a Maven project:
 
+```
+my-app/
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       └── mycompany
+    │   │           └── app
+    │   │               └── App.java
+    │   ├── resources
+    │   │   └── application.properties
+    │   └── webapp
+    │       ├── WEB-INF
+    │       └── jsp
+    └── test
+        ├── java
+        │   └── com
+        │       └── mycompany
+        │           └── app
+        │               └── AppTest.java
+        └── resources
+```
+
+### Explanation of the Directory Structure:
+
+1. **my-app/**: Root directory of the project.
+2. **pom.xml**: The Project Object Model file that contains information about the project and configuration details used by Maven to build the project.
+
+3. **src/**: Source folder containing all the project source files.
+    - **main/**: Main source directory.
+        - **java/**: Java source files.
+            - **com/mycompany/app/**: Package structure for the Java classes.
+                - **App.java**: Main application class.
+        - **resources/**: Resource files like configuration files (e.g., application.properties).
+        - **webapp/**: Web application directory (for web projects).
+            - **WEB-INF/**: Contains web application specific files like web.xml.
+            - **jsp/**: Directory for JSP files.
+        
+    - **test/**: Test source directory.
+        - **java/**: Java test files.
+            - **com/mycompany/app/**: Package structure for the test classes.
+                - **AppTest.java**: Test class.
+        - **resources/**: Resource files for tests.
+
+### Customizing the Directory Structure:
+
+Maven allows you to customize the directory structure by configuring the `pom.xml` file. For example, you can specify different directories for source and resource files.
+
+This standard directory structure helps in streamlining the build process and makes it easier for developers to understand and collaborate on Maven projects.
+______________________________________________________________________________________________________________________________________________________________________________
 
