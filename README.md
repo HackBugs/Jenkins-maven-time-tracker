@@ -206,6 +206,10 @@ ________________________________________________________________________________
       - user3
   - Manage and Assign Roles
       - Install plugin - Role-based Authorization Strategy
+    
+    - Security > Authorization > Role-Based Strategy
+    
+    - Manage and Assign Roles
       - Manage Roles
       - Assign Roles
       - Permission Templates
