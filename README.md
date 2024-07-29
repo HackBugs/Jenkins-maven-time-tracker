@@ -249,7 +249,21 @@ sudo apt-get install openjdk-21-jdk
 Java --version
 Follow the download documentation of jenkins based on operating system
 ```
-    
+____________________________________________________________________________________________________________________
+
+### Maven
+   - Pom.xml - Configuration file -
+      - Metadata
+      - Source
+      - Dependencies Information
+      - Compiler Information
+      - .War .Jar
+      - Kind of Project
+      - Kind of output
+   - in one Pom.xml contain on project infomation not multipule
+     
+### Architecture of Maven
+   - M2 Local Repo > Pom.xml - we mention all Dependencies and Compiler and other information | Goal - all cmd of maven we called gols > Source code > Remotec Centeral Repo where maven Dependencies or other requrement have stored > Github where we save our code
 
 
 
