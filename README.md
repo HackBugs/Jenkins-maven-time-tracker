@@ -226,6 +226,11 @@ ________________________________________________________________________________
 
 ### Post-build Actions
   - Build Other Project
+
+### Jenkins-CICD-django-notes-app - Configuration
+- Pipeline
+    - Pipeline script - in this we write groovy code
+    - Pipeline script from SCM - in this groovy upload on github and set the path
 ______________________________________________________________________________________________
 
 ### Master Slave Concept - Job Distribution concept
