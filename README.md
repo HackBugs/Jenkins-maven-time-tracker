@@ -353,6 +353,7 @@ ________________________________________________________________________________
       - Deploy - install jinkins plugin - `deploytocontainer`
       - clone the github project - in jenkins
       - Install jenkins plugin - `Ant - for building`, `Warning next gen - for review of code and qulity check`, `checkstyle plugn is not avilable`
-      - Jenkins select freestyle project 
+      - Jenkins select freestyle project
+      - Depoly projecy on apache topmcat server 
    
 
